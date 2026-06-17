@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Environment configuration
+.env
+
+# Build artifacts
+dist/
+build/
+
+# Upload files (large media stored in uploads)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+.nyc_output/
